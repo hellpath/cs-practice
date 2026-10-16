@@ -5,8 +5,6 @@ def calc(n1, op, n2):
         return print(f'Результат: {n1 - n2}')
     elif op == '*':
         return print(f'Результат: {n1 * n2}')
-    elif op == ':' or op == '/':
-        return print(f'Результат: {n1 / n2}')
     else:
         print('Ошибка')
 
